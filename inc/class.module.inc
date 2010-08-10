@@ -9,7 +9,7 @@
 class blank {
   
   //Class variables here
-  protected $path;
+  public $path;
   
   //Build any object references we need here - when we include this file, PHP will looks for the construct and give us this object automatically
   function __construct() {
